@@ -28,7 +28,7 @@ body {
 
 }
 
-.panelbody ol {
+.panel {
   -webkit-animation: fadeInLeft 1.5s;
 }
 
@@ -39,8 +39,8 @@ body {
   padding-right: 2px;
 }
 
-#example p {
-  -webkit-animation: zoomInRight 1.5s;
+#example {
+  -webkit-animation: zoomInRight 1.3s;
 }
 
 .centerButton {

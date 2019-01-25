@@ -24,19 +24,29 @@ var beepBoop = function(number){
   return finishedList;
 };
 
+var normalBoop = function(number){
+  var list = "";
+  for (var i = 0; i <= number; i++){
+    list += i + "<br>";
+  }
+  return list;
+}
+
 //User Interface
 $(document).ready(function(){
   $("form#input").submit(function(event){
     $("#intro").hide();
     $("#userInput").hide();
     $("#userOutput").fadeIn();
-    $("#result").empty();
+    $("p#secondResult").hide();
 
     var number = $("input#numberInput").val();
 
     var result = beepBoop(number);
+    var normalResult = normalBoop(number);
 
     $("#boopResult").append(result);
+    $("#secondResult").append(normalResult);
 
     event.preventDefault();
   });
@@ -46,7 +56,12 @@ $(document).ready(function(){
     $("#userInput").show();
   });
 
+  $("button#btnNormal").click(function(){
+    $("p#boopResult").toggle();
+    $("p#secondResult").toggle();
+  });
+
   $("button#goBack").click(function(){
     location.reload();
-  });
+  })
 });
