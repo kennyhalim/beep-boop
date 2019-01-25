@@ -5,7 +5,6 @@
 #### By _**Kenny Halim**_
 
 ## Description
-
 _This is a website that lets the user input a number and output a result from 0 to the number the user inputted with a little bit of twist._
 
 ## Setup Instructions
@@ -22,13 +21,7 @@ _This is a website that lets the user input a number and output a result from 0 
 | numbers that contain 1 are replaced | 1             | Beep!,Boop!       |
 | new numbers inputted                | 2             | Beep!,Boop!,2 instead of Beep!,Boop!,2Beep!,Boop!,2|
 
-
-## Support and contact details
-
-_Feel free to use this code, contact me at kennyhalim98@gmail.com_
-
 ## Technologies Used
-
 * _HTML_
 * _CSS_
 * _Bootstrap_
@@ -36,6 +29,9 @@ _Feel free to use this code, contact me at kennyhalim98@gmail.com_
 * _Command prompt_
 * _Javascript_
 * _JQUERY_
+
+## Support and contact details
+_Feel free to use this code, contact me at kennyhalim98@gmail.com_
 
 ### License
 MIT
