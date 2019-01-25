@@ -1,3 +1,45 @@
+body {
+  background-color: #EADEDB;
+}
+
+.jumbotron {
+  background-color: #EC9787;
+}
+
 .jumbotron h1, p {
   text-align: center;
+}
+
+.jumbotron h1 {
+  -webkit-animation: zoomIn 1s ;
+}
+
+.jumbotron p {
+  -webkit-animation: fadeInUp 1.5s;
+}
+
+.panelhead {
+  background-color: #D1B894;
+}
+
+.panelbody {
+  background-color: #EAE6DA;
+}
+
+#example {
+  text-align: center;
+  border:2px solid #FFCC99;
+}
+
+#example p {
+  -webkit-animation: zoomInRight 1.5s;
+}
+
+.row [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.row{
+  overflow: hidden;
 }
