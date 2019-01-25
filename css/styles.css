@@ -75,3 +75,14 @@ body {
 #kenny a {
   color: #223A5E;
 }
+
+.githublink {
+  position: absolute;
+  bottom: 0;
+  left:0;
+}
+
+#github img {
+  height: 40px;
+  width: 40px;
+}
