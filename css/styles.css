@@ -35,11 +35,19 @@ body {
   -webkit-animation: zoomInRight 1.5s;
 }
 
-.row [class*="col-"]{
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
+.centerButton {
+  text-align: center;
 }
 
-.row{
-  overflow: hidden;
+.btnBoop {
+  background-color: #00A591;
+  color: #EAE6DA;
+}
+
+#userInput {
+  text-align: center;
+}
+
+#userOutput {
+  text-align: center;
 }

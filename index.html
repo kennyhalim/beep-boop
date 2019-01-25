@@ -15,7 +15,7 @@
         <p> Hi there, welcome to <em>Beep Boop!</em><br> a site that list out a bunch of numbers with a lil bit of <strong>TWIST</strong>!</p>
       </div>
       <div id="intro">
-        <div class="row-fluid equal">
+        <div class="row equal">
           <div class="col-md-7">
             <div class="panel panelhead">
               <div class="panel-heading">
@@ -38,10 +38,24 @@
             </div>
           </div>
         </div>
+        <div class="centerButton">
+          <button type="button" class="btn btnBoop">BOOP! to start</button>
+        </div>
       </div>
 
       <div id="userInput">
+        <form id="input">
+          <div class="form-group">
+            <label for="numberInput">Enter a number!</label><br>
+            <input id="numberInput" type="number" min="0">
+          </div>
+          <button type="submit" class="btn btnBoop">BEEP BOOP BEEP</button>
+        </form>
+      </div>
 
+      <div id="userOutput">
+        <h4>Your Result:</h4>
+        <p id="boopResult"></p>
       </div>
 
     </div>
