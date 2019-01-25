@@ -24,8 +24,8 @@
               <div class="panel-body panelbody">
                 <ol>
                   <li>Numbers <em>divisible</em> by <strong>3</strong> are replaced with "I'm sorry, Dave. I'm afraid I can't do that."</li>
-                  <li>Numbers that <em>contain a <strong>1</strong> are replaced with "Boop!".</li>
-                  <li>Numbers that <em>contain a <strong>0</strong> are replaced with "Beep!".</li>
+                  <li>Numbers that <em>contain</em> a <strong>1</strong> are replaced with "Boop!".</li>
+                  <li>Numbers that <em>contain</em> a <strong>0</strong> are replaced with "Beep!".</li>
                 </ol>
               </div>
             </div>
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="centerButton">
-          <button type="button" class="btn btnBoop">BOOP! to start</button>
+          <button type="button" class="btn btnBoop" id="btnStart">BOOP! to start</button>
         </div>
       </div>
 
@@ -54,8 +54,9 @@
       </div>
 
       <div id="userOutput">
-        <h4>Your Result:</h4>
-        <p id="boopResult"></p>
+        <h4><strong>Boom!</strong></h4>
+        <p id="boopResult"></p><br>
+        <button type="button" class="btn btnBoop" id="goBack">Main Menu</button>
       </div>
 
     </div>

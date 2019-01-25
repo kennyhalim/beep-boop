@@ -24,6 +24,11 @@ body {
 
 .panelbody {
   background-color: #EAE6DA;
+  padding-bottom: 0px;
+}
+
+.panelbody ol {
+  -webkit-animation: rotateInUpLeft 1.5s;
 }
 
 #example {
@@ -46,8 +51,10 @@ body {
 
 #userInput {
   text-align: center;
+  display: none;
 }
 
 #userOutput {
   text-align: center;
+  display: none;
 }
