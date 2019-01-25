@@ -62,7 +62,7 @@ body {
   display: none;
 }
 
-#kenny {
+#kenny, #github {
   position: relative;
 }
 
@@ -70,4 +70,8 @@ body {
   position: absolute;
   bottom: 0;
   right:0;
+}
+
+#kenny a {
+  color: #223A5E;
 }
