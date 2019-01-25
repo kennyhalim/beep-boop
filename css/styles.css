@@ -1,5 +1,6 @@
 body {
   background-color: #EADEDB;
+  font-family: 'Space Mono', monospace;
 }
 
 .jumbotron {
@@ -24,16 +25,18 @@ body {
 
 .panelbody {
   background-color: #EAE6DA;
-  padding-bottom: 0px;
+
 }
 
 .panelbody ol {
-  -webkit-animation: rotateInUpLeft 1.5s;
+  -webkit-animation: fadeInLeft 1.5s;
 }
 
 #example {
   text-align: center;
   border:2px solid #FFCC99;
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 #example p {
@@ -57,4 +60,14 @@ body {
 #userOutput {
   text-align: center;
   display: none;
+}
+
+#kenny {
+  position: relative;
+}
+
+.kennyhalim {
+  position: absolute;
+  bottom: 0;
+  right:0;
 }

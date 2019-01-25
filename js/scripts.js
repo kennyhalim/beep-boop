@@ -29,7 +29,7 @@ $(document).ready(function(){
   $("form#input").submit(function(event){
     $("#intro").hide();
     $("#userInput").hide();
-    $("#userOutput").show();
+    $("#userOutput").fadeIn();
     $("#result").empty();
 
     var number = $("input#numberInput").val();
